@@ -9,9 +9,6 @@
   letter-spacing: 0.08px;
 }
 
-.header__menu {
-}
-
 .header__menu__active {
   display: inline-block;
 }
@@ -42,11 +39,7 @@
 }
 
 .address_top {
-  margin-left: 190px;
-}
-
-.address__phone {
-  letter-spacing: 0.2px;
+  margin-left: 191px;
 }
 
 .cover {
