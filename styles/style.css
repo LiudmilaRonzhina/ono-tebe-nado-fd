@@ -1,23 +1,17 @@
 /* место для вашего кода */
-.body {
-  font-family: "Raleway", serif;
-  margin: auto;
-  width: 400px;
-}
 .header {
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-start;
   align-items: center;
-  padding: 97px 24px 98px 0px;
+  padding: 89px 0 91px 31px;
   font-size: 18px;
   position: relative;
   letter-spacing: 0.08px;
 }
 
 .header__menu {
-  margin-left: -31px;
-  margin-top: -2px;
 }
+
 .header__menu__active {
   display: inline-block;
 }
@@ -35,12 +29,9 @@
 }
 
 .header__logo-image {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   width: 137px;
   height: 107px;
+  margin: 2px 0 0 29px;
 }
 
 .address {
@@ -50,7 +41,7 @@
 }
 
 .address_top {
-  margin-left: 110px;
+  margin-left: 190px;
 }
 
 .address__phone {
@@ -70,8 +61,7 @@
 }
 
 .cover__title {
-  margin-bottom: 105px; /* не совсем поняла для чего, в результате измерила расстояние от НАДО до начала строки внизу 
-  секции cover */
+  margin-bottom: 105px; 
   font-weight: 700;
   font-size: 100px;
   color: white;
