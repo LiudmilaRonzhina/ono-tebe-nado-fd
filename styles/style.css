@@ -134,6 +134,8 @@
   padding-top: 27px;
   background-position: center;
   background-size: cover;
+  flex-wrap: wrap;
+  row-gap: 25px;
 }
 
 .lot__common {
